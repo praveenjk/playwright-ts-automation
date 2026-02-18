@@ -31,7 +31,7 @@ pipeline {
 
         stage('Run Smoke Tests') {
             steps {
-                bat 'npx playwright test exampleFixture.spec.ts'
+                bat 'npx playwright test --grep @smoke'
             }
         }
 
