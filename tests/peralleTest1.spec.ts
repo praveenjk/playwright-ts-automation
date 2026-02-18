@@ -13,7 +13,7 @@ for (const url of baseURLs) {
 
 //using forEach to create multiple tests
 baseURLs.forEach((url) => {
-    test(`Sample test for peralleTest1 ${url}`, async ({ page }) => {
+    test(`Sample test for peralleTest2 ${url}`, async ({ page }) => {
         // Navigate to the application page
         await page.goto(url);
     })
