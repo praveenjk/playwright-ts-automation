@@ -5,7 +5,7 @@ import { test } from '../fixtureFolder/fixture';
 //     console.log('Hellow World');
 // })
 
-test('Smoke Where is My Candy',async({helloWorld})=>{
+test('Where is My Candy @smoke',async({helloWorld})=>{
     //console.log(helloWorld);
     console.log('Where is My Candy');
 })
