@@ -7,6 +7,7 @@ pipeline {
 
     environment {
         CI = 'true'
+        BASE_URL = "${env.BRANCH_NAME == 'QA' ? 'https://www.google.com/' : 'https://www.youtube.com/'}"
     }
 
     stages {
